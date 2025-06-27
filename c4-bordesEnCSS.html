@@ -38,6 +38,8 @@
     .s2{
       & .bx1{
         border: solid 2px red;
+        outline: solid 3px blue;
+        outline-offset: 3px;
       }
       & .bx2{
         border: solid 3px violet;
@@ -48,6 +50,13 @@
         border-radius: 0px 10px 10px 0px;
       }
     }
+    /*Al igual que border-style, también existe un borde fuera del margen que se puede estilizar. Para seleccionarlo se utiliza el atributo "outline-style".
+    Al igual que border-style, outline-style utiliza los mismos valores para mostrar los estilos en el navegador.
+      - outline-style.
+      - outline-color.
+      - outline-widht.
+      - outline-offset (Es el padding entre la linea de fuera y el margen).
+      - outline (Utiliza los mismos valores que border).*/
   </style>
 </head>
 <body>
